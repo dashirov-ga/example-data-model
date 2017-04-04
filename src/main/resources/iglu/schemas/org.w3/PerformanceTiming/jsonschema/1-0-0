@@ -1,0 +1,145 @@
+{
+	"$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+	"description": "Schema for page performance, based on the window.performance.timing object (see https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/NavigationTiming/Overview.html)",
+	"self": {
+		"vendor": "org.w3",
+		"name": "PerformanceTiming",
+		"format": "jsonschema",
+		"version": "1-0-0"
+	},
+
+	"type": "object",
+	"properties": {
+		"navigationStart": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"redirectStart": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"redirectEnd": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"fetchStart": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"domainLookupStart": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"domainLookupEnd": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"connectStart": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"secureConnectionStart": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"connectEnd": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"requestStart": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"responseStart": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"responseEnd": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"unloadEventStart": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"unloadEventEnd": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"domLoading": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"domInteractive": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"domContentLoadedEventStart": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"domContentLoadedEventEnd": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"domComplete": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"loadEventStart": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"loadEventEnd": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"msFirstPaint": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"chromeFirstPaint": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"requestEnd": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"proxyStart": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		},
+		"proxyEnd": {
+			"type": "integer",
+			"maximum": 9223372036854775807,
+			"minimum": 0
+		}
+	},
+	"additionalProperties": false
+}
